@@ -62,7 +62,7 @@ swarm.exe [OPTIONS]
 
 ## Version History
 
-* 0.2 - October 2020
+* 0.2 - November 2020
     * Program completed
     * Programmed the networking and communication system.
     * Specifically programmed the files within the directory `.\Sources\Router`:
@@ -74,6 +74,6 @@ swarm.exe [OPTIONS]
     - packages.ads
     ```
     * Completed by `Amandeep Singh`
-* 0.1 - July 2018
+* 0.1 - July 2019
     * Developed the graphical interface and the router's functionalities.
     * Initial Release developed by `Dr Uwe Zimmer`
