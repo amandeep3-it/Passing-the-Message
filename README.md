@@ -1,10 +1,10 @@
 # Passing the Message - Ada
 
-Command-line based Ada Routers interaction design to enhance and develop communications and networking skills. Learning goals were to practise efficient synchronised and asynchronised interations with the network routers amongst each other.
+Command-line based Ada Routers interaction design to enhance and develop communications and networking skills. Learning goals were to practise efficient synchronous and asynchronous interactions with the network routers amongst each other.
 
 ## Description
 
-The netwokring and communication design of the program should allow the routers to understand the network topology and deliver the messages with the timeframe. There are several options available of topology, size, degree, depths, dimensions, print connections, print distances, routers settle time, comms timeout, test nide, dropouts and repeat to test the network design.
+The networking and communication design of the program should allow the routers to understand the network topology and deliver the messages with a timeframe. There are several options available of topology, size, degree, depths, dimensions, print connections, print distances, routers settle time, comms timeout, test nide, dropouts and repeat to test the network design.
 
 ### Languages and Tools:
 
@@ -64,7 +64,7 @@ swarm.exe [OPTIONS]
 
 * 0.2 - October 2020
     * Program completed
-    * Programmed the networking and communiation system.
+    * Programmed the networking and communication system.
     * Specifically programmed the files within the directory `.\Sources\Router`:
     ```
     - generic_message_structures.ads
