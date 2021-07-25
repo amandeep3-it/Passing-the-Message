@@ -1,0 +1,127 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatw.n
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwt
+A -gnatw.t
+A -gnatwu
+A -gnatw.u
+A -gnatwv
+A -gnatw.v
+A -gnatww
+A -gnatw.w
+A -gnatwx
+A -gnatw.x
+A -gnatwy
+A -gnatwz
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnato
+A -gnatE
+A -g
+A -gnata
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_PROTECTED_TYPES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV PURE_BARRIERS
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+
+U packages%b		packages.adb		7d755f21 DE NE OO PK GE
+
+U packages%s		packages.ads		dc094e05 BN DE EE NE OO PK GE
+
+D packages.ads		20201030051428 dc094e05 packages%s
+D packages.adb		20201030051322 a17c1124 packages%b
+D system.ads		20170516105954 32a08138 system%s
+X 1 packages.ads
+2+9 Element 28r33 29r33 37r34 2|42r29 49r33
+4k9*Packages 2z9 36E9 43l5 43e13 2|1b14 57l5 57t13
+7W19*Blocker 7d28 15E7 16l8 16e15 2|4b19 24l8 24t15
+7i28 Initial{natural} 15r30 15r48
+8V16 Is_Shutdown{boolean} 2|5b16
+10U17 Shutdown 2|7b17 9l11 9t19
+11U17 Allow 2|11b17 16l11 16t16
+13Y13 Wait 2|18b13 23l11 23t15
+15i7 Guard{integer} 2|5r47 8m13 13r13 14m13 18r23 20r13 21m13
+19R9*Queue_Type 32r15 38c9 42e14
+21W19*Protected_Queue 32E7 33l8 33e23 2|27b19 56l8 56t23
+23V16 Is_Empty{boolean} 2|29b16 49s51
+24V16 Is_Full{boolean} 2|32b16 42s47
+26U17 Empty_Queue 2|35b17 40l11 40t22
+28Y13 Enqueue 28>22 2|42b13 47l11 47t18
+28*22 Item{2+9} 2|44r41
+29Y13 Dequeue 29<22 2|49b13 54l11 54t18
+29*22 Item{2+9} 2|51m10
+32r7 Queue{19R9} 2|30r10 33r14 33r38 33r50 37m10 38m10 39m10 44m10 44r26
+. 45m10 45r40 46m10 51r28 51r44 52m10 52r40 53m10 53r28 53r40
+36M9 Index 37r24 39r19 39r30 2|37r28 38r28 45r28 52r28
+37A9 List(2+9)<36M9> 41r19
+39m7 Top{36M9} 2|33r44 37m16 51r50 52m16 52r46 53r34
+39m12 Free{36M9} 2|33r56 38m16 44r32 45m16 45r46 53r46
+40b7 Is_Empty{boolean} 2|30r16 33r20 39m16 46m16 53m16
+41a7 Elements{37A9} 2|44m16 51r34
+X 2 packages.adb
+42*22 Item{1|2+9}
+49*22 Item{1|2+9}
+
