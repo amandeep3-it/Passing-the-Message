@@ -18,7 +18,7 @@ The networking and communication design of the program should allow the routers 
 
 ### Dependencies
 
-* The program was executed and developed on Windows 10 - `GNAT Studio | AdaCore`.
+* The program was executed and developed on `Windows 10 - GNAT Studio | AdaCore`.
 * Should be executable on any OS and machine.
 
 ### Installing
