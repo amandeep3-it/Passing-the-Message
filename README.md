@@ -1,6 +1,6 @@
 # Passing the Message - Ada
 
-Command-line based Ada Routers interaction design to enhance and develop communications and networking skills. Learning goals were to practise efficient synchronous and asynchronous interactions with the network routers amongst each other.
+Command-line based `Ada` Routers interaction design to enhance and develop communications and networking skills. Learning goals were to practise efficient synchronous and asynchronous interactions with the network routers amongst each other.
 
 ## Description
 
@@ -8,8 +8,11 @@ The networking and communication design of the program should allow the routers 
 
 ### Languages and Tools:
 
-<img align="left" alt="Terminal" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+[<img align="left" alt="GNAT Studio" height="50px" width="50px" src="https://img2.helpnetsecurity.com/articles/icon_gps.jpg" />][gnat-studio]
+[<img align="left" alt="Ada" height="50px" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Ada_Mascot_with_slogan.svg" />][ada]
+[<img align="left" alt="Terminal" height="50px" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][terminal]
 
+<br/>
 <br/>
 
 ---
@@ -77,3 +80,7 @@ swarm.exe [OPTIONS]
 * 0.1 - July 2019
     * Developed the graphical interface and the router's functionalities.
     * Initial Release developed by `Dr Uwe Zimmer`
+
+[gnat-studio]: https://www.adacore.com/gnatpro/toolsuite/gnatstudio
+[ada]: https://www.adacore.com/
+[terminal]: https://www.microsoft.com/en-au/p/windows-terminal/9n0dx20hk701
